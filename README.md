@@ -7,7 +7,7 @@ relative free binding energy of protein mutations
 relative free binding energy of ligands
 
 ## analysis*
-Make sure you pay attention to the direction (forward | reverse)
+Pay attention to the direction (forward | reverse)
 
 ## Installation
 Please refer to these

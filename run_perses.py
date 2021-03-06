@@ -42,7 +42,7 @@ n_mols = len(mols)
 suffix = 'run'; selection = 'not water'; checkpoint_interval = 10; n_states = 100; n_cycles = 5000
 #lambda_protocol = LambdaProtocol(functions='default')
 #ligand_pairs = []
-for i,j in zip([0]*n_mols, range(1,(n_mols+1))):
+for i,j in zip([0]*n_mols, range(1,n_mols)):
     #ligand_pairs.append((i,j))
     #ligand_pairs = (i,j)
     #ligand1, ligand2 = ligand_pairs[int(sys.argv[1])-1] # jobarray starts at 1 
